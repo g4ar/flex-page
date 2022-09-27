@@ -1,0 +1,43 @@
+.footer,
+.header{
+background-color:#1F2937 ;
+}
+
+.subtitle{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-size: 800;
+}
+
+.subtext,
+.left-header{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-header{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.signup,
+.action,
+.actionbutton{ 
+    background-color: #3882F6;
+}
+.title-info{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800px;
+}
+
+.lower-content{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
