@@ -124,6 +124,22 @@ ul{
 
 .content{
     margin: 50px;
+}
+
+.lower-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px;
+}
+.quote{
+    align-self: flex-start;
+    margin: auto;
+    border:40px;
 
 }
 
+.verse{
+    align-self: flex-end;
+    font-size: 24px;
+}
