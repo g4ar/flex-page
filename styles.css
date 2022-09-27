@@ -171,3 +171,14 @@ margin-left: 60px;
     border-color: white;
     margin-right: 80px;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+.footertext{
+    color: white;
+}
