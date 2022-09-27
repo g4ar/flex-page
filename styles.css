@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*color and fonts*/
-*{
-    font-family: roboto;
+* {
+    font-family: Roboto;
+    font-weight: 400;
 }
 .footer,
 .header,
@@ -16,6 +18,7 @@ background-color:#1F2937 ;
     width: 75px;
     height: 30px;
     border-radius: 8px;
+    font-weight: 800px;
 }
 .subtitle{
     font-size: 48px;
@@ -96,6 +99,31 @@ ul{
 
 .subtitle{
     margin-left: auto;
+    width: 320px;
+}
+
+.cardbox{
+ display: flex;
+ justify-content: space-between;
+ padding:32px;
+ flex-wrap: wrap;
+}
+
+.title-info{
+ text-align: center;
+}
+
+.card{
+    padding: 16px;
+    margin: 16px;
     width: 300px;
+}
+.text{
+    text-align: center;
+}
+
+.content{
+    margin: 50px;
+
 }
 
