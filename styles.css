@@ -1,9 +1,22 @@
+
+/*color and fonts*/
+*{
+    font-family: roboto;
+}
 .footer,
 .header,
 .subheader{
 background-color:#1F2937 ;
 }
 
+.signup{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 75px;
+    height: 30px;
+    border-radius: 8px;
+}
 .subtitle{
     font-size: 48px;
     color: #F9FAF8;
@@ -13,8 +26,7 @@ background-color:#1F2937 ;
 .subtext,
 .left-header{
     font-size: 18px;
-    color: #E5E7EB;
-    
+    color: #E5E7EB; 
 }
 
 .right-header{
@@ -36,8 +48,6 @@ background-color:#1F2937 ;
 .lower-content{
     background-color: #E5E7EB;
 }
-
-
 
 .quote{
     font-size: 36px;
@@ -62,10 +72,30 @@ background-color:#1F2937 ;
 
 ul{
     display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 16px;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
     list-style: none
 }
 
+.placeholder{
+    display: flex;
+    text-align: center;
+    padding:100px;
+    background-color: grey;
+    justify-content: center;
+    margin: auto;
+}
+
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 32px;
+}
+
+.subtitle{
+    margin-left: auto;
+    width: 300px;
+}
 
